@@ -1,0 +1,16 @@
+.container{
+    width:100%;
+    display: grid;
+    grid-template-columns: 2fr;
+    grid-gap: 2rem;
+}
+
+.sticky{
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    background-color: white;
+    z-index: 2;
+    box-shadow: 0 5px 20px gray;
+}
